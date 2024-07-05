@@ -27,37 +27,44 @@ namespace PSTParse.Message_Layer
 
         public Recipient(TCRowMatrixData row)
         {
-            foreach (var exProp in row)
+            try
             {
-                switch (exProp.ID)
+                foreach (var exProp in row)
                 {
-                    case 0x0c15:
-                        this.Type = (RecipientType)BitConverter.ToUInt32(exProp.Data, 0);
-                        break;
-                    case 0x0e0f:
-                        this.Responsibility = exProp.Data[0] == 0x01;
-                        break;
-                    case 0x0ff9:
-                        this.Tag = exProp.Data;
-                        break;
-                    case 0x0ffe:
-                        this.ObjType = (PSTEnums.ObjectType)BitConverter.ToUInt32(exProp.Data, 0);
-                        break;
-                    case 0x0fff:
-                        this.EntryID = new EntryID(exProp.Data);
-                        break;
-                    case 0x3001:
-                        this.DisplayName = Encoding.Unicode.GetString(exProp.Data);
-                        break;
-                    case 0x3002:
-                        this.EmailAddressType = Encoding.Unicode.GetString(exProp.Data);
-                        break;
-                    case 0x3003:
-                        this.EmailAddress = Encoding.Unicode.GetString(exProp.Data);
-                        break;
-                    default:
-                        break;
+                    switch (exProp.ID)
+                    {
+                        case 0x0c15:
+                            this.Type = (RecipientType)BitConverter.ToUInt32(exProp.Data, 0);
+                            break;
+                        case 0x0e0f:
+                            this.Responsibility = exProp.Data[0] == 0x01;
+                            break;
+                        case 0x0ff9:
+                            this.Tag = exProp.Data;
+                            break;
+                        case 0x0ffe:
+                            this.ObjType = (PSTEnums.ObjectType)BitConverter.ToUInt32(exProp.Data, 0);
+                            break;
+                        case 0x0fff:
+                            this.EntryID = new EntryID(exProp.Data);
+                            break;
+                        case 0x3001:
+                            this.DisplayName = Encoding.Unicode.GetString(exProp.Data);
+                            break;
+                        case 0x3002:
+                            this.EmailAddressType = Encoding.Unicode.GetString(exProp.Data);
+                            break;
+                        case 0x3003:
+                            this.EmailAddress = Encoding.Unicode.GetString(exProp.Data);
+                            break;
+                        default:
+                            break;
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                Console.Write(ex.ToString());
             }
         }
     }

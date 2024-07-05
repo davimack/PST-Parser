@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\PST-Parser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9159D5C8-F773-4AC1-8927-48A0B35F40F0}|PSTParseApp\\PSTParseApp.csproj|d:\\projects\\pst-parser\\pstparseapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9159D5C8-F773-4AC1-8927-48A0B35F40F0}|PSTParseApp\\PSTParseApp.csproj|solutionrelative:pstparseapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8896CE5-BEFD-4F1F-9B7C-24A5ABDE5683}|PSTParse\\PSTParse.csproj|d:\\projects\\pst-parser\\pstparse\\ndb\\btpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8896CE5-BEFD-4F1F-9B7C-24A5ABDE5683}|PSTParse\\PSTParse.csproj|solutionrelative:pstparse\\ndb\\btpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BTPage.cs",
+              "DocumentMoniker": "D:\\Projects\\PST-Parser\\PSTParse\\NDB\\BTPage.cs",
+              "RelativeDocumentMoniker": "PSTParse\\NDB\\BTPage.cs",
+              "ToolTip": "D:\\Projects\\PST-Parser\\PSTParse\\NDB\\BTPage.cs",
+              "RelativeToolTip": "PSTParse\\NDB\\BTPage.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAApwCoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T17:22:13.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\PST-Parser\\PSTParseApp\\Program.cs",
+              "RelativeDocumentMoniker": "PSTParseApp\\Program.cs",
+              "ToolTip": "D:\\Projects\\PST-Parser\\PSTParseApp\\Program.cs",
+              "RelativeToolTip": "PSTParseApp\\Program.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwCkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:36:45.556Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
